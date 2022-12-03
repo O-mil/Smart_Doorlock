@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="id_array">
+        <item>전체</item>
+        <item>김화정</item>
+        <item>윤현진</item>
+        <item>임다솜</item>
+        <item>소희</item>
+        <item>Guest</item>
+    </string-array>
+</resources>

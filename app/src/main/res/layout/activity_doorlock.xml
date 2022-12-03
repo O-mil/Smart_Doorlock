@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#F9F5EB">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="자물쇠를 눌러 잠금을 해제하세요"
+        android:id="@+id/textViewReciev"
+        android:textColor="#607EAA"/>
+
+    <ImageButton
+        android:id="@+id/buttonControl"
+        android:layout_width="264dp"
+        android:layout_height="198dp"
+        android:layout_below="@+id/messageText"
+        android:layout_alignStart="@+id/messageText"
+        android:layout_marginTop="13dp"
+        android:background="#FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@drawable/lock_icon"
+        android:text="Send" />
+
+</LinearLayout>

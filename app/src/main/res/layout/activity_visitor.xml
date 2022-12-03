@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".VisitorActivity"
+    android:gravity="center"
+    android:background="#F9F5EB">
+
+    <ImageView
+        android:id="@+id/vImg"
+        android:layout_width="327dp"
+        android:layout_height="234dp"/>
+
+    <TextView
+        android:id="@+id/vName"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="김화정"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textColor="#1C3879"/>
+
+    <TextView
+        android:id="@+id/vTime"
+        android:layout_width="376dp"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="2022년 11월 21일 15:29:47"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#607EAA"/>
+
+    <Button
+        android:id="@+id/home_btn"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="#EAE3D2"
+        android:text="홈으로 돌아가기"
+        android:textColor="#1C3879"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/control_btn"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="#EAE3D2"
+        android:text="도어락 제어"
+        android:textColor="#1C3879"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/list_btn"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="방문자 목록"
+        android:textSize="15dp"
+        android:background="#EAE3D2"
+        android:textColor="#1C3879"/>
+
+</LinearLayout>
